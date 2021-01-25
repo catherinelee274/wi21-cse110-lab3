@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Website</title>
+        <meta charset="UTF-8">  
+    </head>
+
+
+    <body>
+
+        <header><h1>Catherine Lee's Website</h1></header>
+        <nav>
+            <a href="https://github.com/catherinelee274">Github</a> |
+            <a href="https://www.linkedin.com/in/~catherine">Linkedin</a> |
+            <a href="https://catherinelee274.github.io/">Website</a>
+            
+          </nav>
+        <br>
+        <code>System.out.println("hello world!");</code>
+        <aside>
+            <pre>
+                All the days blending
+                Together into a stew
+                but not a good stew
+            </pre>
+        </aside>
+        <img src="profpic.jpg" alt="temp.jpg"> 
+        <p>Hi everyone!</p>
+
+        <hr>
+
+        <main>
+            <section>
+                <h3><span style="color:blue">Employment</span></h3>
+                <picture>
+                    <!-- <source media="(min-width:465px)" srcset="img_white_flower.jpg"> -->
+                    <img src="amazon.png" alt="Flowers" style="width:auto;">
+                  </picture>
+                <ol>
+                    <li><em>Machine Learning Intern</em> @ Adobe</li>
+                    <li>Software Engineer Intern @ Amazon </li>
+                </ol>
+            </section>
+            
+
+            <br>
+
+            <section>
+                <h2>Highlights</h2>
+                <ul>
+                    <li><b>Best Under Construction Hack</b> @ LAHacks 2020</li>
+                    <li><i>Best Data Usability Hack</i> @ PennApps 2019</li>
+                    <li><strong>Best Use of Microsoft Azure</strong> @ Cal Hacks 5.0 2018</li>
+                </ul>
+            </section>
+            
+            <br>
+            <section>
+                <div class = "projects">
+                    <h2>Ongoing Projects</h2>
+                    <ul>
+                        <li>Domain Adaptation for Racial Faces in the Wild (Research)</li>
+                        <li>Bikeable</li> 
+                    </ul>
+                </div>
+            </section>
+            
+        </main>
+
+        <figure>
+            <img src="coding.jpeg" alt="" style="width:100%">
+            <figcaption>Me doing things.</figcaption>
+        </figure>
+        <audio controls>
+            <source src="audio.wav" type="audio/ogg">
+           
+          </audio>
+          <video width="320" height="240" controls>
+            <source src="cat.mp4" type="video/mp4">
+          </video>
+
+          <canvas id="myCanvas" width="200" height="100" style="border:10px solid #000000;"></canvas>
+        
+          <svg width="400" height="180">
+            <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:pink;stroke:black;stroke-width:10;opacity:0.5" />
+          </svg>  
+          
+          <iframe width="300" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+
+          <h3>Form</h3>
+          <section>
+              <form>
+                  <fieldset>
+                      <legend>Your info</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email"><br>
+
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password"><br>
+
+                    <label for="weburl">Website URL</label><br>
+                    <input type="url" id="weburl"><br>
+
+                    <label for="currdate">Current Date</label><br>
+                    <input type="date" id="currdate"><br>
+
+                    <label for="paygrade">Desired Paygrade</label><br>
+                    <input type="range" id="paygrade"><br>
+
+                    <label for="resume">Resume</label><br>
+                    <input type="file" id="resume"><br>
+
+                    <label for="birthmonth">Birth Month</label><br>
+                    <input type="month" id="birthmonth"><br>
+
+                    <label for="number">Number</label><br>
+                    <input type="tel" id="number"><br>
+
+                    <!-- <label for="profpic">ProfilePicture</label><br> -->
+                    <!-- <input type="image" id="profpic"><br> -->
+                    <input type="submit">
+                  </fieldset>
+
+                  <fieldset>    
+                      <legend>For Fun</legend>
+                    <label for="ice">Choose a dessert:</label>
+                <select name="ice" id="ice">
+                    <optgroup label="Asian">
+                    <option value="boba">boba</option>
+                    <option value="egg">egg puffs</option>
+                    </optgroup>
+                    <optgroup label="American">
+                    <option value="icec">ice cream</option>
+                    <option value="popsicle">popsicle</option>
+                    </optgroup>
+                </select>
+
+                <br>
+                <label for="editor">Choose your editor from the list:</label>
+                <input list="editors" name="editor" id="editor">
+                <datalist id="editors">
+                    <option value="Vim">
+                    <option value="Emacs">
+                    <option value="VSCode">
+                </datalist>
+                  </fieldset>
+
+                  
+
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" cols="50">
+                Catherine is a great person because...
+                </textarea>
+
+                <input type="submit">
+
+                
+              </form>
+          </section>
+
+          <section>
+              
+              <table style="width:100%">
+                <caption>Information about people close to me</caption>
+                <colgroup>
+                    <col span="3" style="background-color:pink">
+                  </colgroup>
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th> 
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Edward</td>
+                  <td>Y</td>
+                  <td>19</td>
+                </tr>
+                <tr>
+                  <td>Art</td>
+                  <td>P</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>Bryan</td>
+                  <td>J</td>
+                  <td>23</td>
+                </tr>
+              </table>
+          </section>
+
+          <details>
+            <summary>Fun Fact 1</summary>
+            <p>i've been to mexico on a research project.</p>
+            
+          </details>
+
+         
+          <details>
+            <summary>Fun Fact 2</summary>
+            <p>i've gotten front page of reddit once.</p>
+          </details>
+
+
+          <button type="button">Go back to main page</button>
+
+          <footer>Made By Catherine with :love:</footer>
+
+          <template>
+            <p>Hidden stuff</p>
+          </template>
+
+    </body>
+</html>
+
