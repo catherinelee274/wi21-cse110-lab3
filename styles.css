@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+
 /* .class */
 .projects {
     background-color:red;
@@ -22,16 +25,26 @@
     color:hsla(0, 100%, 50%,0);
 }
 
+.projects {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+#resume {
+    color:#FF6347;
+}
 /* Universal Selector  */
 * {
-
+    
 }
 
 
 /* Element Selector  */
 h1 {
     background-color:rgba(0, 255, 255,6);
-
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* pseudo class Selector  */
